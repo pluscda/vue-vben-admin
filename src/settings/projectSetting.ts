@@ -14,7 +14,7 @@ import { primaryColor, themeMode } from '../../build/config/themeConfig';
 // ! You need to clear the browser cache after the change
 const setting: ProjectConfig = {
   // Whether to show the configuration button
-  showSettingButton: true,
+  showSettingButton: false,
 
   // `Settings` button position
   settingButtonPosition: SettingButtonPositionEnum.AUTO,
@@ -79,9 +79,9 @@ const setting: ProjectConfig = {
     //  Whether to fix the left menu
     fixed: true,
     // Menu collapse
-    collapsed: false,
+    collapsed: true,
     // Whether to display the menu name when folding the menu
-    collapsedShowTitle: false,
+    collapsedShowTitle: true,
     // Whether it can be dragged
     // Only limited to the opening of the left menu, the mouse has a drag bar on the right side of the menu
     canDrag: false,
